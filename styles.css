@@ -6,6 +6,7 @@ body {
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
     margin: 0;
+    touch-action: manipulation; /* Prevent zooming */
 }
 
 .calculator {
@@ -25,12 +26,14 @@ body {
     border-radius: 5px;
     background-color: #eaeaea;
     word-wrap: break-word;
+    touch-action: manipulation; /* Prevent zooming */
 }
 
 .calculator-buttons {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+    touch-action: manipulation; /* Prevent zooming */
 }
 
 .btn {
@@ -42,6 +45,7 @@ body {
     border-radius: 5px;
     cursor: pointer;
     user-select: none;
+    touch-action: manipulation; /* Prevent zooming */
 }
 
 .btn:active {
