@@ -24,6 +24,7 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #eaeaea;
+    word-wrap: break-word;
 }
 
 .calculator-buttons {
@@ -40,9 +41,10 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    user-select: none;
 }
 
-.btn:hover {
+.btn:active {
     background-color: #0056b3;
 }
 
@@ -51,6 +53,6 @@ body {
     background-color: #28a745;
 }
 
-.equal:hover {
+.equal:active {
     background-color: #218838;
 }
