@@ -29,7 +29,6 @@ body {
     max-width: 100%; /* Limit display width */
     overflow: auto; /* Enable horizontal scrolling if needed */
     touch-action: manipulation; /* Prevent zooming */
-}
 
 }
 
