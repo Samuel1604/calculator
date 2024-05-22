@@ -17,7 +17,7 @@ body {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
-.calculator-display {
+    .calculator-display {
     font-size: 2em;
     text-align: right;
     margin-bottom: 10px;
@@ -25,8 +25,12 @@ body {
     border: 1px solid #ccc;
     border-radius: 5px;
     background-color: #eaeaea;
-    word-wrap: break-word;
+    word-wrap: break-word; /* Wrap long numbers */
+    max-width: 100%; /* Limit display width */
+    overflow: auto; /* Enable horizontal scrolling if needed */
     touch-action: manipulation; /* Prevent zooming */
+}
+
 }
 
 .calculator-buttons {
